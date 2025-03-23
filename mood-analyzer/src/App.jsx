@@ -16,8 +16,8 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-[#F1F1F1] flex flex-col">
-      <h1>Mood Analyzer</h1>
+    <div>
+      <h1 className="text-center py-4">Spotify API Project</h1>
       <Routes>
         <Route path="/" element={<button onClick={handleLogin}>Se connecter avec Spotify</button>} />
         <Route path="/callback" element={<Callback />} />
